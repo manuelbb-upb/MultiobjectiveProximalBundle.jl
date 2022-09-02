@@ -33,7 +33,7 @@ x, fx = mpb_optimize(
 ```
 Here, `x0` is the initial **feasible** start vector and
 `objective_funcs` is a vector of functions.
-Each functions must return a tuple of its scalar primal value
+Each function must return a tuple of its scalar primal value
 and its gradient. Likewise for the constraints.
 `gammas_objectives` are constants to compensate non-convexity.
 The default value of `nothing` results in `0.5` being used.
