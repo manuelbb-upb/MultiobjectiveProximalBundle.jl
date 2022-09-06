@@ -101,7 +101,8 @@ x, fx = mpb_optimize(x0, [f1, f2], [g])
 ToDo's:
 * Support linear constraints.
 * Remove unnecessary arrays.
-* “Pre-allocate” model of sub-problem via parametrization.
+* ~“Pre-allocate” model of sub-problem via parametrization.~  
+  (I have tested this on another branch and it was slower.)
 * Enable choice of sub-problem solver.
 * More verbosity, informative return codes.
 
