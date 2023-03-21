@@ -1,7 +1,7 @@
 name = "MultiobjectiveProximalBundle"
 uuid = "7c640890-aab7-4b0b-9130-8fee89820740"
 authors = ["Manuel Berkemeier <manuelbb@mail.uni-paderborn.de>"]
-version = "0.0.1-DEV"
+version = "0.0.1"
 
 [deps]
 COSMO = "1e616198-aa4e-51ec-90a2-23f7fbd31d8d"
