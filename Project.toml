@@ -3,6 +3,13 @@ uuid = "7c640890-aab7-4b0b-9130-8fee89820740"
 authors = ["Manuel Berkemeier <manuelbb@mail.uni-paderborn.de>"]
 version = "0.0.1"
 
+[compat]
+julia = "1.6"
+COSMO = "0.8.6"
+DocStringExtensions = "0.9.1"
+JuMP = "1.3.0"
+Parameters = "0.12.3"
+
 [deps]
 COSMO = "1e616198-aa4e-51ec-90a2-23f7fbd31d8d"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
